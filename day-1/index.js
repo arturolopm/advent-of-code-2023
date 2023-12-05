@@ -66,6 +66,7 @@ const sumOfNumbers = (input, strs) => {
       }
     }
     const allPositions = Object.keys(toAddStrings).map((i) => Number(i));
+
     const toAdd = [];
     const lowestIndex = Math.min(...allPositions);
     toAdd.push(toAddStrings[lowestIndex.toString()]);
